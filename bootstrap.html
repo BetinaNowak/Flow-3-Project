@@ -17,6 +17,9 @@
 
     <!-- Custom styles for this template -->
     <link href="cover.css" rel="stylesheet">
+	 
+	<!--Scroll - Credit to https://plugins.compzets.com/animatescroll/-->  
+	 <script type="text/javascript" src="animate-scroll.js"></script> 
   </head>
 	
 	
@@ -26,11 +29,11 @@
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <header class="masthead mb-auto">
         <div class="inner">
-          <h3 class="masthead-brand">Gender Pay Gap in the UK</h3>
+          <h3 class="masthead-brand"><img src="logo-01.svg" height="40px" ></h3>
           <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="#">Home</a>
-            <a class="nav-link" href="#men">Infographics</a>
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link active" href="#" onclick="$('#men').animatescroll();">Home</a>
+            <a class="nav-link" href="#men">Dynamic Infographic</a>
+            <a class="nav-link" href="#illustrator">Static Infographic</a>
           </nav>
         </div>
       </header>
@@ -38,28 +41,63 @@
 		<br><br><br><br><br><br><br><br>
 		
 	<!-- Intro tekst og knap -->	
-      <main role="main" class="inner cover">
-        <h1 class="cover-heading">View our amazing data</h1>
+     
+		
+		<div class="container">
+  			<div class="row">
+    			<div class="col-md">
+    			   <main role="main" class="inner cover">
+        		<h1 class="cover-heading">Gender Pay Gap in the UK</h1>
         <p class="lead">Ida & Betina are quite the magnificent Data Visualizationers :D Aaand this is their fenomonal website provided by them made for you!</p>
         <p class="lead">
           <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
         </p>
       </main>
-		
-		<br><br><br><br><br><br><br><br><br>
-		<h1 class="cover-heading" id="men">Highest Paid Men</h1>
-		<p>Dynamic data made with D3!</p>
-		
-	<!-- JavaScript Charts -->
-		<div class=""> 
-			<div id="bar-chart"></div>
-			<script src="02-bar-chart-axis.js"></script>
-			<img src="pay gap-01-01.png" class="img-fluid" alt="Responsive image">
+    			</div>
+    			
+  			</div>
 			
+			
+		<br><br><br><br><br><br><br><br><br>	
+			<div class="row">
+    			<div class="col-sm">
+    			  	<h1 class="cover-heading" id="men">Highest Paid Men</h1>
+					<p>Dynamic data made with D3!</p>
+					<div id="bar-chart"></div>
+					<script src="02-bar-chart-axis.js"></script>
+    			</div>
+  			</div>
+			
+		<br><br><br><br><br><br><br><br><br>	
+		<!--ILLUSTRATOR BILLEDE-->	
+			<div class="row">
+    			<div class="col-md">
+    			  	<h1 class="cover-heading" id="illustrator">Static Infographic </h1>
+					<p>Made in illustrator</p>
+					<img src="Illustrator-infografik.png" class="img-fluid" alt="Responsive image">
+    			</div>
+  			</div>
 		</div>
 		
-		<br><br><br>
 		
+		
+		<!-- JavaScript Charts -->
+		<br><br><br><br><br><br><br><br><br>
+		<!--<h1 class="cover-heading" id="men">Highest Paid Men</h1>
+		<p>Dynamic data made with D3!</p>
+		
+		 
+			<div id="bar-chart"></div>
+			<script src="02-bar-chart-axis.js"></script>
+		<br><br><br>
+		<h1 class="cover-heading" id="illustrator">Static Infographic </h1>
+		<p>Made in illustrator</p>
+			<img src="Illustrator-infografik.png" class="img-fluid" alt="Responsive image">
+			-->
+		
+		
+		<br><br><br>
+	<!-- Footer -->	
       <footer class="mastfoot mt-auto">
         <div class="inner">
           <p>Assignment by <a href="https://www.instagram.com/xbetinasvendsen/">Betina Svendsen</a> & <a href="https://www.instagram.com/ida.rossen/">Ida Rossen</a>.</p>
@@ -75,5 +113,6 @@
     <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="../../../../assets/js/vendor/popper.min.js"></script>
     <script src="../../../../dist/js/bootstrap.min.js"></script>
+	  
   </body>
 </html>

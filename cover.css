@@ -9,7 +9,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #B8CBCD;
 }
 
 /* Custom default button */
@@ -30,7 +30,7 @@ a:hover {
 html,
 body {
   /*height: 100%;*/
-  background-color: #3A5B5E;
+  background-color: #7DB4B9;
 }
 
 body {
@@ -42,7 +42,14 @@ body {
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: 90%;
+}
+.container {
+  width: 70%;
+}
+#bar-chart {
+	margin: 0 auto;
+	align-content: center;
 }
 
 
@@ -55,6 +62,10 @@ body {
 
 .masthead-brand {
   margin-bottom: 0;
+}
+#logo {
+	height: 40px;
+	width: 100px;
 }
 
 .nav-masthead .nav-link {
