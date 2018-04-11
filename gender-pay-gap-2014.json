@@ -1,0 +1,42 @@
+// JSON Document
+
+[{
+    "text": "Information technology and telecommunication directors",
+	"revenue": 63328
+},
+				  {
+    "text": "Senior police officers",
+    "revenue": 59871
+},
+				  {
+    "text": "Train and tram drivers",
+    "revenue": 48422
+},
+				  {
+    "text": "Electrical engineers",
+    "revenue": 42599
+},
+{
+    "text": "Other drivers and transport operatives",
+    "revenue": 41793
+},
+{
+ 	"text": "Financial managers and charted secretaries",
+	"revenue": 41662
+},
+ {
+	 "text": "Health and social services",
+	 "revenue": 38268
+ },
+ {
+	 "text": "Solicitors lawyers judges and coroners",
+	 "revenue": 37734
+ },
+ {
+	 "text": "Taxation experts",
+	 "revenue": 36155
+ },
+ {
+	 "text": "Police officers",
+	 "revenue": 34715
+ }]
